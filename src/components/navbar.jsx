@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center justify-start rtl:justify-end">
             <NavLink to="" className="flex ms-2 md:me-24">
-              <img src="/src/assets/logo.svg" className="h-8 me-3" alt="Logo" />
+              <img src="/logo.svg" className="h-8 me-3" alt="Logo" />
               <span className="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap text-white">
                 Pickly
               </span>
@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <img
               className="w-8 h-8 rounded-full"
-              src="/src/assets/john.jpg"
+              src="/john.jpg"
               alt="user photo"
             />
           </div>
