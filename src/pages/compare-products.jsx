@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { useCompareStore } from "../lib/store"
-import Button from "../components/button"
-import ProductModal from "../components/modal"
+import Button from "../components/Button"
+import ProductModal from "../components/ProductsModal"
 import { RxCross1 } from "react-icons/rx"
 
 const CompareProducts = () => {

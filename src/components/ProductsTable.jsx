@@ -1,12 +1,12 @@
 import React from "react"
 import useFetch from "../hooks/useFetch"
-import Button from "./button"
+import Button from "./Button"
 import { useCompareStore } from "../lib/store"
 import { useNavigate } from "react-router"
 import { STATUS } from "../constants"
 import { FaSort } from "react-icons/fa6"
 import toast from "react-hot-toast"
-import Loader from "./skeleton-loader"
+import Loader from "./Loader"
 
 const ProductsTable = () => {
   const {

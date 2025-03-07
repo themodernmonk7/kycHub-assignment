@@ -8,20 +8,18 @@ const Sidebar = () => {
       <div className="h-full px-3 py-4 overflow-y-auto bg-zinc-900">
         <ul className="space-y-2 font-medium text-sm">
           {sidebarLinks.map((link) => (
-            <li>
-              <NavLink
-                className={({ isActive }) =>
-                  `flex items-center p-2 rounded-lg text-white hover:bg-zinc-800 space-x-2 group ${
-                    isActive ? "bg-zinc-800" : "text-black"
-                  }`
-                }
-                key={link.id}
-                to={link.url}
-              >
-                <span> {link.icon} </span>
-                <span>{link.title}</span>
-              </NavLink>
-            </li>
+            <NavLink
+              key={link.id}
+              className={({ isActive }) =>
+                `flex items-center p-2 rounded-lg text-white hover:bg-zinc-800 space-x-2 group ${
+                  isActive ? "bg-zinc-800" : "text-black"
+                }`
+              }
+              to={link.url}
+            >
+              <span> {link.icon} </span>
+              <span>{link.title}</span>
+            </NavLink>
           ))}
         </ul>
       </div>

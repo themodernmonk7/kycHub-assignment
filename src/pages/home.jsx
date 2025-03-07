@@ -1,5 +1,5 @@
 import React from "react"
-import ProductsTable from "../components/products-table"
+import ProductsTable from "../components/ProductsTable"
 
 const Home = () => {
   return (

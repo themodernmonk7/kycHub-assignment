@@ -2,10 +2,10 @@ import { Modal } from "antd"
 import useFetch from "../hooks/useFetch"
 import { useCompareStore } from "../lib/store"
 import { STATUS } from "../constants"
-import Button from "./button"
+import Button from "./Button"
 import toast from "react-hot-toast"
 
-const ProductModal = ({ open, setOpen }) => {
+const ProductsModal = ({ open, setOpen }) => {
   const { products, status } = useFetch()
   const compareProducts = useCompareStore((state) => state.products)
   const addProduct = useCompareStore((state) => state.addProduct)
@@ -60,4 +60,4 @@ const ProductModal = ({ open, setOpen }) => {
   )
 }
 
-export default ProductModal
+export default ProductsModal
