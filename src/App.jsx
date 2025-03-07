@@ -1,10 +1,9 @@
 import "./App.css"
 import { BrowserRouter, Route, Routes } from "react-router"
-import { CompareProducts, Home } from "./pages"
 import { Toaster } from "react-hot-toast"
 import Sidebar from "./components/Sidebar"
 import Navbar from "./components/Navbar"
-
+import { Home, CompareProducts } from "./pages"
 function App() {
   return (
     <BrowserRouter>

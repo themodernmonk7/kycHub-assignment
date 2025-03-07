@@ -1,4 +1,4 @@
-import CompareProducts from "./compare-products"
+import CompareProducts from "./CompareProducts"
 import Home from "./home"
 
-export { CompareProducts, Home }
+export { Home, CompareProducts }
